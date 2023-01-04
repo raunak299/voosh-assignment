@@ -1,0 +1,120 @@
+.page1-container{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-size: 100% 100%;;
+    background-repeat: no-repeat;
+    width:100%;
+    position:relative;
+}
+
+.page1-details-container{
+    width:100%;
+}
+
+.logo{
+    height:8vw ;
+    min-height:4rem;
+    max-height:6rem;
+    padding: 1rem 2rem;
+    position:absolute;
+    left:0; 
+}
+
+.page1-title-container{
+    width:100%;
+    padding: 20vw 3rem 0;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.page1-title-container h1{
+  font-size:4.5vw;
+  font-weight:700;
+  text-align: start;
+    
+}
+
+
+.page1-title-container p{
+    margin-top: 4vw ;
+    font-size: 2.2vw;
+    text-align: start;
+    font-weight:500;
+}
+
+.page1-title-container a {
+    padding:1.3vw 1.3rem;
+    font-size: 2.2vw;
+    background: #2D66F5;
+    color:white;
+    border-radius:5px;
+    font-weight:500;
+    text-decoration: none;
+    margin-top:4vw;
+}
+
+
+.companies-img-container{
+    padding:.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3rem ;
+}
+
+.companies-img-container img{
+  width:8vw;
+  height:8vw;
+  border-radius:50%;
+  margin:1vw
+}
+
+
+
+.dashboard-img-container {
+    position:absolute;
+    right:0;
+    bottom:-30vw;
+}
+
+.dashboard-img-container img{
+    width:45vw;
+}
+
+@media(min-width:1000px){
+    .page1-details-container{
+        width:50%;
+    }
+
+    .dashboard-img-container {
+       right:0;
+       top:12rem;
+       bottom:initial;
+    }
+
+    .page1-title-container h1{
+        font-size:2.5vw;        
+      }
+      
+      
+      .page1-title-container p{
+          font-size: 1.5vw;
+      }
+      
+      .page1-title-container a {
+          font-size: 1.5vw;
+      }
+
+      .companies-img-container img{ 
+         width:5rem;
+      height:5rem;
+      border-radius:50%;
+      margin:1vw}
+    
+
+}

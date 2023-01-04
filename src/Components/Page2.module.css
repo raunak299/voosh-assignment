@@ -1,0 +1,96 @@
+.page2-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
+    margin-top:35vw;
+    padding:3vw;
+}
+
+.page2-container h2{
+    color:white;
+    font-weight:700;
+    font-size:5vw;
+    padding:3rem;
+}
+
+.page2-container form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1.2rem;
+    width:100%;
+    max-width:30rem;
+    background:white;
+    border-radius:10px;
+    font-size:1.2rem;
+}
+
+.page2-container form div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:100%;
+}
+
+.page2-container form label{
+ margin-top:1rem;
+}
+
+.page2-container form label span{
+color:red;
+}
+
+.page2-container form input{
+    width:100%;
+    border:none;
+    outline:none;
+    background: #EFF0F3;
+    padding:.8rem;
+    margin-top:.2rem;
+    font-size: 1.2rem;
+    border-radius:5px;
+
+}
+
+.page2-container form button{
+background: #2D66F5;
+padding:1.3vw 1.3rem;
+font-size:1.2rem;
+width:100%;
+border:none;
+border-radius: 5px;
+color:white;
+margin-top:2rem ;
+}
+
+.logout-btn{
+    padding:1.3vw 1.3rem;
+    min-height:2rem;
+    font-size: 2.5vw;
+    font-weight:600;
+    background: #2D66F5;
+    color:white;
+    border-radius:5px;
+    text-decoration: none;
+    margin-top:2vw;
+    border:none;
+}
+
+@media(min-width:1000px){
+    .page2-container{
+        margin-top:8rem;
+    }
+    .logout-btn {
+        font-size: 1.5vw;
+    }
+}
+
+
+
